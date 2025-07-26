@@ -58,7 +58,7 @@ This project evaluates the on-chain risk of Ethereum wallets based on their acti
 
 ## 📈 Visual Preview
 
-![Risk Visualization](Screenshot 2025-07-26 162706.png)
+![Risk Visualization](https://github.com/rajputshivamsingh510/Wallet-Risk-Analyzer/blob/3063389a75acc0b323cfef7338f2cf888b121b8f/Screenshot%202025-07-26%20162706.png)
 
 ---
 
