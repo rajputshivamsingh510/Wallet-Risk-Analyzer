@@ -1,10 +1,10 @@
-# 🛡️ Wallet Risk Scoring from Scratch
+#  Wallet Risk Scoring from Scratch
 
 This project evaluates the on-chain risk of Ethereum wallets based on their activity with the Compound V2 protocol. It analyzes wallet behavior using DeFi data and assigns a risk score from **0 (low risk)** to **1000 (high risk)**. The goal is to help identify potentially risky wallet behaviors for DeFi platforms, auditors, or analysts.
 
 ---
 
-## 🔍 What This Project Does
+##  What This Project Does
 
 - Connects to **Moralis API** to retrieve real-time wallet data from the Ethereum mainnet.
 - Extracts key features that impact DeFi risk (e.g. borrow/supply ratio, liquidation history, token diversity).
@@ -13,7 +13,7 @@ This project evaluates the on-chain risk of Ethereum wallets based on their acti
 
 ---
 
-## 📊 Features Extracted
+##  Features Extracted
 
 | Feature               | Description                                 |
 |-----------------------|---------------------------------------------|
@@ -25,7 +25,7 @@ This project evaluates the on-chain risk of Ethereum wallets based on their acti
 
 ---
 
-## 🧠 How Scoring Works
+##  How Scoring Works
 
 1. **Rule-Based Weighting**: Each feature is weighted (e.g., leverage = 30%, liquidation = 25%, etc.)
 2. **Clustering**: KMeans clustering groups wallets into 5 behavior-based segments.
@@ -34,7 +34,7 @@ This project evaluates the on-chain risk of Ethereum wallets based on their acti
 
 ---
 
-## 📁 Outputs
+##  Outputs
 
 - `wallet_risk_scores.csv` – Final output with `wallet_id` and `score`
 - `wallet_risk_scores_detailed.csv` – Full feature breakdown per wallet
@@ -45,7 +45,7 @@ This project evaluates the on-chain risk of Ethereum wallets based on their acti
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - Python
 - Pandas, NumPy, Requests, TQDM
@@ -56,13 +56,13 @@ This project evaluates the on-chain risk of Ethereum wallets based on their acti
 
 ---
 
-## 📈 Visual Preview
+##  Visual Preview
 
 ![Risk Visualization](https://github.com/rajputshivamsingh510/Wallet-Risk-Analyzer/blob/3063389a75acc0b323cfef7338f2cf888b121b8f/Screenshot%202025-07-26%20162706.png)
 
 ---
 
-## ✅ Ideal For
+##  Ideal For
 
 - DeFi risk analysis
 - Wallet profiling
@@ -71,8 +71,8 @@ This project evaluates the on-chain risk of Ethereum wallets based on their acti
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 Built for a technical evaluation task focused on DeFi risk modeling and analysis.  
-**[Your Name]** – [Add LinkedIn or GitHub if applicable]
+** Shivam Singh ** 
 
