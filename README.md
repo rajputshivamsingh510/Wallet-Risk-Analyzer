@@ -69,10 +69,3 @@ This project evaluates the on-chain risk of Ethereum wallets based on their acti
 - On-chain behavior audits
 - Smart contract protocol security
 
----
-
-##  Author
-
-Built for a technical evaluation task focused on DeFi risk modeling and analysis.  
-** Shivam Singh ** 
-
